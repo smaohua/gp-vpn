@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=OpenConnect VPN
+Comment=Connect to GlobalProtect / AnyConnect VPNs via openconnect
+Exec=__EXEC__
+Icon=__ICON__
+Terminal=false
+Categories=Network;Security;
+Keywords=vpn;openconnect;globalprotect;anyconnect;
+StartupNotify=false

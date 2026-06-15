@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openconnect --version)",
+      "Bash(python3 -c \"import PyQt6; print\\('PyQt6 ok'\\)\")",
+      "Bash(python3 -c \"import PySide6; print\\('PySide6 ok'\\)\")",
+      "Bash(python3 -c \"import keyring; print\\('keyring ok'\\)\")",
+      "Bash(pacman -Q python-pyqt6)",
+      "Read(//home/mh/.config/openconnect-gui/**)",
+      "Bash(rm -f ~/.config/openconnect-gui/config.json ~/.config/openconnect-gui/secrets.json)"
+    ]
+  }
+}
